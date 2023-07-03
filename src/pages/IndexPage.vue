@@ -1140,11 +1140,13 @@ const anime = () => {
 <style lang="scss">
 @font-face {
   font-family: 'naraku';
-  src: url('../assets/NARAKU_MOJI.OTF') format('opentype');
+  src: url('../assets/NARAKU_MOJI.woff2') format('woff2');
 }
 @font-face {
   font-family: 'zcoolHappy';
-  src: url('../assets/zcool_happy.ttf') format('truetype');
+  src: url('../assets/zcool_happy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 body {
   overflow: hidden;
