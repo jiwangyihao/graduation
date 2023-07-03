@@ -261,7 +261,7 @@ const animateList = [
 const clickListener = () => {
   //$q.fullscreen.request();
   player.value.play();
-  player.value.currentTime = 260;
+  //player.value.currentTime = 260;
   const interval = setInterval(() => {
     console.log(player.value.currentTime);
     if (player.value.currentTime >= animateList[0].time) {
