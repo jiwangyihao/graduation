@@ -395,7 +395,10 @@ const anime = () => {
 
 <template>
   <q-page class="row items-center justify-evenly main-page">
-    <audio src="/Gravity.mp3" preload="auto" ref="player"></audio>
+    <audio preload="auto" ref="player">
+      <source src="/graduation/Gravity.mp3" type="audio/mp3" />
+      <source src="/Gravity.mp3" type="audio/mp3" />
+    </audio>
     <div class="cover" ref="cover">
       <div class="start">
         <div class="play-button" ref="playButton">
@@ -1075,6 +1078,10 @@ const anime = () => {
           label="衣服设计稿链接"
           @focus="focusURL"
         />
+        <p>衣服的底色随自己喜好就好</p>
+        <p>不过设计的时候是按照白底处理的</p>
+        <p>总之自己取舍吧</p>
+        <p>另外</p>
         <p>立牌的设计稿也放在下面好了</p>
         <q-input
           v-model="signURL"
@@ -1090,6 +1097,9 @@ const anime = () => {
         <p>如果你真的</p>
         <p>很想再看一遍</p>
         <q-btn color="primary" label="那就来再看一遍吧" @click="replay" />
+        <p>（感觉看到的人会很少）</p>
+        <p>所以给个提示好了</p>
+        <p>等 BGM 再放完一遍再退出吧</p>
       </q-scroll-area>
     </div>
     <div class="egg" id="egg2" ref="egg2">
@@ -1402,7 +1412,7 @@ section {
 
       span {
         margin: 2vmin 1vmin;
-        font-size: 9vmin;
+        font-size: 8.5vmin;
         min-height: 9vmin;
         line-height: 1ch;
         color: #965103;
@@ -1475,7 +1485,7 @@ section {
 
       span {
         margin: 2vmin 1vmin;
-        font-size: 9vmin;
+        font-size: 8.5vmin;
         min-height: 9vmin;
         line-height: 1ch;
         color: #965103;
