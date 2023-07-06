@@ -388,11 +388,12 @@ const replay = () => {
 };
 
 const anime = () => {
-  location.href = 'https://alist.jwyihao.top/29%E7%9B%B8%E5%86%8C';
+  location.href =
+    'https://alist.jwyihao.top/%E7%95%AA%E5%89%A7%E5%BD%92%E6%A1%A3/BD/%E6%9D%A5%E8%87%AA%E6%B7%B1%E6%B8%8A';
 };
 
 const gallery = () => {
-  location.href = '';
+  location.href = 'https://alist.jwyihao.top/29%E7%9B%B8%E5%86%8C';
 };
 </script>
 
