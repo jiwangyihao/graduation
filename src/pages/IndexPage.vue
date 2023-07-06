@@ -395,6 +395,10 @@ const anime = () => {
 const gallery = () => {
   location.href = 'https://alist.jwyihao.top/29%E7%9B%B8%E5%86%8C';
 };
+
+const github = () => {
+  location.href = 'https://github.com/jiwangyihao/graduation';
+};
 </script>
 
 <template>
@@ -1103,6 +1107,11 @@ const gallery = () => {
         <q-btn color="primary" label="那就来再看一遍吧" @click="replay" />
         <p>这两天整理了一个相册来着</p>
         <q-btn color="primary" label="来看看吗" @click="gallery" />
+        <p>另外提一句吧还是</p>
+        <p>这个网站在 GitHub 上开源</p>
+        <p>想学计算机的同学可以来看看的说</p>
+        <p>（也给我点个 Star 吧）</p>
+        <q-btn color="primary" label="点个 Star 吧" @click="github" />
         <p>（感觉看到的人会很少）</p>
         <p>所以给个提示好了</p>
         <p>等 BGM 再放完一遍再退出吧</p>
