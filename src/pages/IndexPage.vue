@@ -388,8 +388,11 @@ const replay = () => {
 };
 
 const anime = () => {
-  location.href =
-    'https://alist.jwyihao.top/%E7%95%AA%E5%89%A7%E5%BD%92%E6%A1%A3/BD/%E6%9D%A5%E8%87%AA%E6%B7%B1%E6%B8%8A';
+  location.href = 'https://alist.jwyihao.top/29%E7%9B%B8%E5%86%8C';
+};
+
+const gallery = () => {
+  location.href = '';
 };
 </script>
 
@@ -1097,6 +1100,8 @@ const anime = () => {
         <p>如果你真的</p>
         <p>很想再看一遍</p>
         <q-btn color="primary" label="那就来再看一遍吧" @click="replay" />
+        <p>这两天整理了一个相册来着</p>
+        <q-btn color="primary" label="来看看吗" @click="gallery" />
         <p>（感觉看到的人会很少）</p>
         <p>所以给个提示好了</p>
         <p>等 BGM 再放完一遍再退出吧</p>
