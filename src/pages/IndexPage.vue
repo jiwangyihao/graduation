@@ -1109,7 +1109,7 @@ const github = () => {
         <q-btn color="primary" label="来看看吗" @click="gallery" />
         <p>另外提一句吧还是</p>
         <p>这个网站在 GitHub 上开源</p>
-        <p>想学计算机的同学可以来看看的说</p>
+        <p>想学计算机的同学可以来看看呐</p>
         <p>（也给我点个 Star 吧）</p>
         <q-btn color="primary" label="点个 Star 吧" @click="github" />
         <p>（感觉看到的人会很少）</p>
