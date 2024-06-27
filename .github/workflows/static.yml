@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,7 +39,6 @@ jobs:
         run: |
           corepack enable
           yarn install
-          cp ghpage_quasar.config.ts quasar.config.ts
           yarn build
           cp dist/spa/index.html dist/spa/404.html
         shell: bash
